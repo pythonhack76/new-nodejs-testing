@@ -1,9 +1,10 @@
-console.log('pippo');
-console.error('errore');
+const http = require('http');
 
-let num = 10;
+const server = http.createServer((req, res) => {
+    res.write('salve');
+    res.end();
+});
 
-for (let index = 0; index < num; index++){
-        console.log(index);
-}
+
+server.listen(3000);
 

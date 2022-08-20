@@ -9,21 +9,21 @@ const server = http.createServer((req, res) => {
 
     res.writeHead(200, { "Content-Type": "text/html"});
     res.write('<h1>Welcome to our country club</h1>');
-    res.end();   
+    //res.end();   
     }
  
     if (req.url === '/about'){
           
     res.writeHead(200, { "Content-Type": "text/html"});
     res.write('<h1>io sono about</h1>')
-    res.end( );  
+    //res.end( );  
 
     }else{
         res.writeHead(404, { "Content-Type": "text/html"});
         res.write('<h1>Pagina non trovata</h1>')
-            res.end()
+            
             }
-        
+            res.end();
         });
 
 

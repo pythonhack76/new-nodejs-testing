@@ -1,0 +1,22 @@
+{
+  "name": "mia-app",
+  "version": "1.0.0",
+  "description": "app",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pythonhack76/new-nodejs-testing.git"
+  },
+  "author": "sprite",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pythonhack76/new-nodejs-testing/issues"
+  },
+  "homepage": "https://github.com/pythonhack76/new-nodejs-testing#readme",
+  "dependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
